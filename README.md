@@ -109,4 +109,8 @@ jupyter notebook main.ipynb
 
 ---
 
+---
+Videoyu izlemek için [buraya tıklayın](https://www.youtube.com/watch?v=aV6FotrzCP4).
+---
+
 *BLM463 Veri Madenciliğine Giriş — Dönem Projesi*
