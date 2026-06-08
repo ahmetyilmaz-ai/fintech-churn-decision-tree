@@ -1,0 +1,23 @@
+# Veri (boyut + lisans: COFINFAD Mendeley'den indirilir)
+veri/
+*.csv
+
+# Kaynak PDF'ler (ders yönergesi / dergi makalesi — repoda paylaşılmaz)
+kaynaklar/
+
+# Ses / video / üretim dosyaları
+*.mp3
+*.mp4
+*.wav
+*.m4a
+
+# Kişisel sunum yardımcıları
+BLM463_KonusmaMetni_KISA.docx
+BLM463_Seslendirme_Metni_TTS.txt
+BLM463_Sunum_KonusmaMetni.docx
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
