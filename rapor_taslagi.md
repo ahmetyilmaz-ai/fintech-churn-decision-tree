@@ -111,6 +111,9 @@ Karar Ağacı'nın başarısının anlamlı olup olmadığını değerlendirmek 
 
 Karar Ağacı, hem ROC-AUC (0.751) hem F1 (%52.7) hem de Dengeli Doğruluk (%69.4) açısından tüm taban modelleri geçmektedir. Bu karşılaştırma, "Neden Karar Ağacı?" sorusuna nesnel bir gerekçe sunar: model, basit alternatiflerden ve naif tabandan anlamlı biçimde daha iyidir.
 
+<p style="text-align:center; margin-top:10px;"><img src="gorseller/rfig_model_baseline_karsilastirma.png"></p>
+<p style="text-align:center; font-size:10pt;"><i>Şekil 1: Modellerin ROC-AUC karşılaştırması — Karar Ağacı tüm taban modelleri geçmektedir.</i></p>
+
 ---
 
 ### 7. Görsel Analizler ve Özellik Önemleri
@@ -118,6 +121,18 @@ Proje kapsamında oluşturulan görseller (karmaşıklık matrisi, ROC eğrisi, 
 
 *   Özellik Önemleri: Modelin churn kararını domine eden özellikler `total_transaction_volume` (~%65) ve `average_transaction_value` (~%34) olmuştur. Karar ağacının kök düğümü de doğrudan `total_transaction_volume`'dur.
 *   İşlem Hacmi – Churn İlişkisi: İşlem hacmi dilimlere ayrıldığında, en düşük hacimli dilimde churn oranı %38 iken en yüksek hacimli dilimde %9'a düşmektedir. Bu monoton ilişki, churn'ün gerçek müşteri davranışıyla açıklanabildiğini ve modelin öğrenebileceği anlamlı bir örüntü olduğunu gösterir.
+
+<p style="text-align:center; margin-top:10px;"><img src="gorseller/rfig_churn_degerlendirme.png"></p>
+<p style="text-align:center; font-size:10pt;"><i>Şekil 2: Karmaşıklık matrisi (sol) ve özellik önem dereceleri (sağ).</i></p>
+
+<p style="text-align:center; margin-top:10px;"><img src="gorseller/rfig_churn_roc.png"></p>
+<p style="text-align:center; font-size:10pt;"><i>Şekil 3: ROC eğrisi (AUC = 0.751).</i></p>
+
+<p style="text-align:center; margin-top:10px;"><img src="gorseller/rfig_churn_hacim_iliskisi.png"></p>
+<p style="text-align:center; font-size:10pt;"><i>Şekil 4: İşlem hacmi dilimine göre churn oranı.</i></p>
+
+<p style="text-align:center; margin-top:10px;"><img src="gorseller/rfig_churn_kararagaci.png"></p>
+<p style="text-align:center; font-size:10pt;"><i>Şekil 5: Karar ağacının ilk seviyeleri (kök düğüm: total_transaction_volume).</i></p>
 
 ---
 
