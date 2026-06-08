@@ -7,6 +7,10 @@
 - **Ders Kodu:** BLM463
 - **Ödev Konusu:** Karar Ağaçları ile Churn Tahmini
 
+**Proje Bağlantıları:**
+- **Kaynak Kod (GitHub):** https://github.com/ahmetyilmaz-ai/fintech-churn-decision-tree
+- **Sunum Videosu (YouTube):** https://www.youtube.com/watch?v=aV6FotrzCP4
+
 ---
 
 ### 1. Giriş ve Proje Özeti

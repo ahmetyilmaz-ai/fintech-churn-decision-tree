@@ -4,6 +4,7 @@
 > Bir fintech şirketinin müşteri ve işlem verileri üzerinde, **Karar Ağacı (Decision Tree)** ile müşteri kaybını (churn) tahmin eden, veri sızıntısından arındırılmış ve açıklanabilir bir sınıflandırma çalışması.
 
 **Öğrenci:** Ahmet Yılmaz · 22360859044
+**🎬 Sunum Videosu:** [YouTube](https://www.youtube.com/watch?v=aV6FotrzCP4)
 
 ---
 
